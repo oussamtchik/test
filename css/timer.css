@@ -1,0 +1,88 @@
+.timer_block {
+	margin: 0px auto 20px;
+	padding: 10px  10px 6px 15px;
+	width: 400px;
+	box-sizing: border-box;
+	border: 2px dotted #d2d2ee;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.timer_block p {
+	float: left;
+	width: 140px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #222;
+	padding: 0;
+}
+
+
+.timer_block .timer {
+	float: left;
+	width: 230px;
+}
+
+.timer_block .timer_item {
+	float: left;
+	width: 33.333333%;
+	font-size: 50px;
+	line-height: 50px;
+	color: #8362a4;
+	text-align: center;
+	position: relative;
+}
+
+.timer_block .timer_item:nth-child(2):before, 
+.timer_block .timer_item:nth-child(2):after {
+	display: block;
+	content: ':';
+	width: 10px;
+	font-size: 28px;
+	line-height: 44px;
+	position: absolute;
+	top: 0;
+}
+
+.timer_block .timer_item:nth-child(2):before {
+	left: -5px;
+}
+
+.timer_block .timer_item:nth-child(2):after {
+	right: -5px;
+}
+
+.timer_block2 {
+	padding: 20px  10px 6px 15px;
+	width: 315px;
+	height: 86px;
+	box-sizing: border-box;
+	border: 0;
+	overflow: hidden;
+	border-radius: 0px;
+	margin: -10px 0 0;
+	position: relative;
+	z-index: 20;
+}
+.timer_block2 p {
+	float: left;
+	width: 80px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #222;
+	padding: 6px 0 0;
+}
+.timer_block2 .timer {
+	float: left;
+	width: 200px;
+}
+.timer_block2 .timer_item {
+	float: left;
+	width: 33.333333%;
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 8px;
+	color: #8362a4;
+	text-align: center;
+	position: relative;
+}
